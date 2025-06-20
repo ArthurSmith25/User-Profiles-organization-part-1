@@ -33,12 +33,6 @@ Como analista, no solo me limité a ejecutar tareas técnicas, sino que enfoqué
 
 ---
 
-### 💼 ¿Por qué es relevante?
-
-Este tipo de proyectos refleja no solo el dominio técnico en limpieza de datos con Python, sino una capacidad de pensar como analista: proponiendo estructuras, entendiendo las necesidades del negocio y preparando el terreno para decisiones basadas en datos confiables. En roles remotos e internacionales, esta proactividad y claridad de razonamiento es clave para integrarse a equipos multidisciplinarios y distribuidos.
-
----
-
 ### 📂Resumen ejecutivo
 
 Limpieza y estructuración de perfiles de usuario (python) Automatizé la limpieza, separación y estandarización de datos de usuarios mediante Python, implementando validación de tipos, formateo de cadenas y control de errores para asegurar la calidad de los datos antes del análisis.
