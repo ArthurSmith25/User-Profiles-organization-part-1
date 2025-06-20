@@ -1,4 +1,4 @@
-# eda-and-data-cleaning-first-project
+# eda-and-data-cleaning-users info
 # 🧹 Limpieza y Estructuración de Perfiles de Usuario
 
 ### 📌 Descripción general
