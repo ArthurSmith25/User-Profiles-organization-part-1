@@ -1,67 +1,55 @@
-📊 Objetivos principales
-Evaluar la calidad de los datos proporcionados por el cliente.
+# 🧹 Cleaning & Structuring of User Profiles
 
-Limpiar, transformar y estructurar los datos de usuarios.
+## 📌 Descripción del proyecto
 
-Preparar los datos para su análisis posterior.
+Este proyecto simula un escenario real en el que un analista de datos debe limpiar y estructurar perfiles de usuarios antes de iniciar cualquier análisis. A partir de una muestra cruda proporcionada por el cliente, me encargué de detectar inconsistencias, corregir errores y transformar los datos para que estén listos para su análisis posterior.
 
-Garantizar que la información sea coherente, precisa y fácilmente interpretable.
+---
 
-🧾 Estructura de los datos originales
-Los datos iniciales fueron proporcionados en formato de lista de Python con las siguientes columnas:
+## 🧾 Estructura de los datos originales
 
-user_id: Identificador único para cada usuario.
+Los datos iniciales están organizados en una lista de Python con las siguientes columnas:
 
-user_name: Nombre completo del usuario (con errores de formato).
+- `user_id`: Identificador único para cada usuario.
+- `user_name`: Nombre completo del usuario (con errores de formato).
+- `user_age`: Edad del usuario.
+- `fav_categories`: Categorías favoritas (en mayúsculas).
+- `total_spendings`: Lista de gastos totales por cada categoría favorita.
 
-user_age: Edad del usuario.
+---
 
-fav_categories: Lista de categorías favoritas de productos (en mayúsculas).
+## 🛠️ Principales tareas realizadas
 
-total_spendings: Lista de gastos totales asociados a cada categoría favorita.
+1. **Evaluación y corrección de errores:**
+   - Conversión del `user_id` a tipo entero.
+   - Limpieza de caracteres innecesarios en `user_name` (guiones bajos, espacios).
+   - Conversión segura de `user_age` a número entero.
+   - Normalización de las categorías favoritas a minúsculas.
 
-🛠️ Principales tareas realizadas
-Evaluación de calidad de datos:
-Identifiqué errores comunes como tipos incorrectos, cadenas mal formateadas y convenciones inconsistentes.
+2. **Estructuración de datos:**
+   - Separación del `user_name` en nombre y apellido.
+   - Ordenamiento de los datos por `user_id`.
+   - Cálculo del gasto total por usuario.
+   - Generación de resúmenes en lenguaje natural sobre cada usuario.
+   - Conteo de usuarios registrados.
 
-Transformación de datos:
+3. **Creación de una nueva estructura de datos limpia (`users_clean`):**
+   - Lista refinada y estructurada con todos los datos corregidos y listos para análisis.
 
-Conversión de user_id a entero.
+---
 
-Limpieza y división del campo user_name (eliminando guiones bajos y espacios).
+## 🧑‍💼 Habilidades aplicadas
 
-Conversión segura de user_age a entero con validación de errores.
+- Python (listas, cadenas, funciones, condicionales, manejo de errores)
+- Limpieza y transformación de datos
+- Validación de datos y robustez del código
+- Generación de resúmenes legibles para usuarios y stakeholders
 
-Normalización de texto en fav_categories a minúsculas.
+---
 
-Cálculos y resúmenes:
+## 📈 Relevancia del proyecto
 
-Cálculo de gasto total por usuario.
-
-Generación de resúmenes personalizados tipo:
-User 32415 is Mike who is 32 years old.
-
-Conteo total de usuarios procesados.
-
-Creación de la lista limpia users_clean:
-
-Estandarización de nombres y edades.
-
-Separación del nombre y apellido en listas independientes.
-
-🧑‍💼 Habilidades aplicadas
-Python (listas, cadenas, condicionales, ciclos, funciones)
-
-Limpieza y transformación de datos
-
-Manejo de errores y validación
-
-Buenas prácticas en estructuras de datos
-
-Comunicación efectiva de resultados en texto formateado
-
-🧠 ¿Por qué es relevante?
-Este proyecto replica un escenario real de preprocesamiento de datos, donde es vital garantizar la calidad de la información antes de construir cualquier análisis o modelo. Muestra no solo habilidades técnicas, sino también pensamiento lógico, atención al detalle y claridad en la presentación de resultados.
+Este proyecto demuestra habilidades clave para el puesto de analista de datos, incluyendo la atención al detalle, la calidad del preprocesamiento y la capacidad de estructurar información para análisis posteriores. También refleja una comunicación clara y orientada a negocios, algo fundamental al presentar resultados a clientes o equipos no técnicos.
 
 ---
 
