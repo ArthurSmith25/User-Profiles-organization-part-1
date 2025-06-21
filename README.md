@@ -1,35 +1,67 @@
-# eda-and-data-cleaning-users info
-# 🧹 Limpieza y Estructuración de Perfiles de Usuario
+📊 Objetivos principales
+Evaluar la calidad de los datos proporcionados por el cliente.
 
-### 📌 Descripción general
+Limpiar, transformar y estructurar los datos de usuarios.
 
-Este proyecto marca la primera fase de un análisis más amplio orientado a la toma de decisiones basada en datos reales de clientes. El objetivo principal fue evaluar la calidad del dataset original, diseñar un flujo de limpieza automatizado con Python y preparar los datos para su análisis posterior, cumpliendo con estándares de calidad esperados por el cliente.
+Preparar los datos para su análisis posterior.
 
----
+Garantizar que la información sea coherente, precisa y fácilmente interpretable.
 
-### 🎯 Enfoque del proyecto
+🧾 Estructura de los datos originales
+Los datos iniciales fueron proporcionados en formato de lista de Python con las siguientes columnas:
 
-Como analista, no solo me limité a ejecutar tareas técnicas, sino que enfoqué este reto desde una perspectiva de negocio: anticipando problemas futuros en la estructura del dataset, proponiendo soluciones escalables y asegurando la trazabilidad de cada transformación aplicada. Este proceso fue documentado con claridad, entendiendo que un buen análisis comienza con una base de datos limpia, confiable y estructurada.
+user_id: Identificador único para cada usuario.
 
----
+user_name: Nombre completo del usuario (con errores de formato).
 
-### ⚙️ Tecnologías y herramientas utilizadas
+user_age: Edad del usuario.
 
-- **Python** (listas, funciones personalizadas, manejo de errores)
-- Validación de tipos de datos
-- Limpieza de strings (formato de nombres)
-- Conversión y normalización de edad
-- Estandarización de categorías
-- Automatización con bucles y condiciones
+fav_categories: Lista de categorías favoritas de productos (en mayúsculas).
 
----
+total_spendings: Lista de gastos totales asociados a cada categoría favorita.
 
-### 🧠 Qué aportó este proyecto
+🛠️ Principales tareas realizadas
+Evaluación de calidad de datos:
+Identifiqué errores comunes como tipos incorrectos, cadenas mal formateadas y convenciones inconsistentes.
 
-- Automatización del proceso de depuración y estructuración de datos de clientes.
-- Validación inteligente de errores comunes antes de que afecten el análisis.
-- Estandarización de formatos que favorecen la futura segmentación y visualización.
-- Base sólida para la segunda etapa del análisis, donde se aplicarán técnicas estadísticas y modelos exploratorios.
+Transformación de datos:
+
+Conversión de user_id a entero.
+
+Limpieza y división del campo user_name (eliminando guiones bajos y espacios).
+
+Conversión segura de user_age a entero con validación de errores.
+
+Normalización de texto en fav_categories a minúsculas.
+
+Cálculos y resúmenes:
+
+Cálculo de gasto total por usuario.
+
+Generación de resúmenes personalizados tipo:
+User 32415 is Mike who is 32 years old.
+
+Conteo total de usuarios procesados.
+
+Creación de la lista limpia users_clean:
+
+Estandarización de nombres y edades.
+
+Separación del nombre y apellido en listas independientes.
+
+🧑‍💼 Habilidades aplicadas
+Python (listas, cadenas, condicionales, ciclos, funciones)
+
+Limpieza y transformación de datos
+
+Manejo de errores y validación
+
+Buenas prácticas en estructuras de datos
+
+Comunicación efectiva de resultados en texto formateado
+
+🧠 ¿Por qué es relevante?
+Este proyecto replica un escenario real de preprocesamiento de datos, donde es vital garantizar la calidad de la información antes de construir cualquier análisis o modelo. Muestra no solo habilidades técnicas, sino también pensamiento lógico, atención al detalle y claridad en la presentación de resultados.
 
 ---
 
