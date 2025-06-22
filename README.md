@@ -1,4 +1,4 @@
-# 🧹 Cleaning & Structuring of User Profiles
+# 🧹 Data Cleaning & Structuring of User Profiles
 
 ## 📌 Descripción del proyecto
 
